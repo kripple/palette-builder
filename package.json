@@ -1,0 +1,56 @@
+{
+  "name": "palette-builder",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . && stylelint '**/*.css' && prettier --check .",
+    "test": "vitest run",
+    "test:cov": "vitest run --coverage",
+    "test:watch": "vitest",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@mui/icons-material": "*",
+    "@mui/material": "*",
+    "@reduxjs/toolkit": "*",
+    "react": "*",
+    "react-dom": "*",
+    "tinycolor2": "*"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/tinycolor2": "*",
+    "@typescript-eslint/eslint-plugin": "7.16.1",
+    "@typescript-eslint/parser": "7.16.1",
+    "@vitejs/plugin-react": "*",
+    "@vitest/coverage-v8": "*",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-react": "7.37.2",
+    "eslint-plugin-react-hooks": "5.0.0",
+    "eslint-plugin-react-refresh": "0.4.14",
+    "happy-dom": "*",
+    "prettier": "*",
+    "rollup-plugin-visualizer": "*",
+    "sharp": "*",
+    "stylelint": "*",
+    "stylelint-order": "*",
+    "stylelint-prettier": "*",
+    "typescript": "*",
+    "vite": "*",
+    "vitest": "*"
+  },
+  "imports": {
+    "@/*": "./src/*"
+  }
+}

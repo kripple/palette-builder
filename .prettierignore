@@ -1,0 +1,4 @@
+coverage
+docs
+stats*
+package-lock.json
